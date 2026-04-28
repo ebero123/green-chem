@@ -1,3 +1,5 @@
+the node_modules file is not uploaded here idk why it is not getting uploaded so yaa.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
