@@ -1,0 +1,316 @@
+{
+  "ethanol": {
+    "name": "Ethanol",
+    "is_green": true,
+    "score": 9,
+    "reason": "Renewable via fermentation. Biodegradable solvent.",
+    "alternative": "Replaces toxic organic solvents like benzene.",
+    "native_use": "Solvent in labs and disinfectant."
+  },
+  "water": {
+    "name": "Water",
+    "is_green": true,
+    "score": 10,
+    "reason": "Non-toxic, abundant, and environmentally safe.",
+    "alternative": "Best alternative to harmful solvents.",
+    "native_use": "Universal solvent in chemistry."
+  },
+  "hydrogen peroxide": {
+    "name": "Hydrogen Peroxide",
+    "is_green": true,
+    "score": 8,
+    "reason": "Breaks down into water and oxygen.",
+    "alternative": "Alternative to chlorine-based oxidizers.",
+    "native_use": "Disinfectant and oxidizing agent."
+  },
+  "citric acid": {
+    "name": "Citric Acid",
+    "is_green": true,
+    "score": 9,
+    "reason": "Derived from natural sources and biodegradable.",
+    "alternative": "Replaces synthetic acids.",
+    "native_use": "Food additive and cleaning agent."
+  },
+  "benzene": {
+    "name": "Benzene",
+    "is_green": false,
+    "score": 2,
+    "reason": "Highly toxic and carcinogenic.",
+    "alternative": "Use ethanol or water-based solvents.",
+    "native_use": "Industrial solvent and precursor."
+  },
+  "toluene": {
+    "name": "Toluene",
+    "is_green": false,
+    "score": 3,
+    "reason": "Volatile and harmful to environment.",
+    "alternative": "Use greener solvents like ethanol.",
+    "native_use": "Paint thinner and solvent."
+  },
+  "chloroform": {
+    "name": "Chloroform",
+    "is_green": false,
+    "score": 2,
+    "reason": "Toxic and ozone-depleting.",
+    "alternative": "Safer organic solvents.",
+    "native_use": "Laboratory solvent."
+  },
+  "methanol": {
+    "name": "Methanol",
+    "is_green": false,
+    "score": 4,
+    "reason": "Toxic but can be renewable.",
+    "alternative": "Ethanol as safer alcohol.",
+    "native_use": "Fuel and solvent."
+  },
+  "ammonia": {
+    "name": "Ammonia",
+    "is_green": false,
+    "score": 5,
+    "reason": "Useful but harmful in high concentrations.",
+    "alternative": "Use controlled nitrogen sources.",
+    "native_use": "Fertilizers and cleaning agents."
+  },
+  "sodium hydroxide": {
+    "name": "Sodium Hydroxide",
+    "is_green": false,
+    "score": 4,
+    "reason": "Corrosive chemical.",
+    "alternative": "Use milder bases when possible.",
+    "native_use": "Soap making and cleaning."
+  },
+  "sulfuric acid": {
+    "name": "Sulfuric Acid",
+    "is_green": false,
+    "score": 3,
+    "reason": "Highly corrosive and hazardous.",
+    "alternative": "Use weaker acids like acetic acid.",
+    "native_use": "Industrial chemical processing."
+  },
+  "lactic acid": {
+    "name": "Lactic Acid",
+    "is_green": true,
+    "score": 9,
+    "reason": "Biodegradable and derived from fermentation.",
+    "alternative": "Replaces synthetic acids.",
+    "native_use": "Food and biodegradable plastics."
+  },
+  "glycerol": {
+    "name": "Glycerol",
+    "is_green": true,
+    "score": 9,
+    "reason": "Non-toxic and biodegradable.",
+    "alternative": "Green solvent alternative.",
+    "native_use": "Cosmetics and pharmaceuticals."
+  },
+  "acetone": {
+    "name": "Acetone",
+    "is_green": false,
+    "score": 5,
+    "reason": "Volatile but less toxic than others.",
+    "alternative": "Use ethanol when possible.",
+    "native_use": "Solvent and cleaning agent."
+  },
+  "formaldehyde": {
+    "name": "Formaldehyde",
+    "is_green": false,
+    "score": 2,
+    "reason": "Toxic and carcinogenic.",
+    "alternative": "Use safer preservatives.",
+    "native_use": "Preservation and resins."
+  },
+  "calcium carbonate": {
+    "name": "Calcium Carbonate",
+    "is_green": true,
+    "score": 8,
+    "reason": "Naturally abundant and low toxicity.",
+    "alternative": "Eco-friendly filler material.",
+    "native_use": "Construction and medicine."
+  },
+  "sodium bicarbonate": {
+    "name": "Sodium Bicarbonate",
+    "is_green": true,
+    "score": 9,
+    "reason": "Safe and environmentally friendly.",
+    "alternative": "Green cleaning agent.",
+    "native_use": "Baking and cleaning."
+  },
+  "urea": {
+    "name": "Urea",
+    "is_green": false,
+    "score": 5,
+    "reason": "Useful but causes environmental runoff.",
+    "alternative": "Organic fertilizers.",
+    "native_use": "Fertilizer."
+  },
+  "phenol": {
+    "name": "Phenol",
+    "is_green": false,
+    "score": 3,
+    "reason": "Toxic and hazardous.",
+    "alternative": "Use safer disinfectants.",
+    "native_use": "Resins and disinfectants."
+  },
+
+  "propylene glycol": {
+    "name": "Propylene Glycol",
+    "is_green": true,
+    "score": 8,
+    "reason": "Low toxicity and biodegradable.",
+    "alternative": "Safer antifreeze alternative.",
+    "native_use": "Food and pharmaceuticals."
+  },
+  "ethylene glycol": {
+    "name": "Ethylene Glycol",
+    "is_green": false,
+    "score": 3,
+    "reason": "Toxic to humans and animals.",
+    "alternative": "Use propylene glycol.",
+    "native_use": "Antifreeze."
+  },
+  "dimethyl carbonate": {
+    "name": "Dimethyl Carbonate",
+    "is_green": true,
+    "score": 9,
+    "reason": "Low toxicity and eco-friendly solvent.",
+    "alternative": "Replaces toxic methylating agents.",
+    "native_use": "Green solvent."
+  },
+  "carbon dioxide": {
+    "name": "Carbon Dioxide",
+    "is_green": true,
+    "score": 7,
+    "reason": "Non-toxic but greenhouse gas.",
+    "alternative": "Use responsibly in processes.",
+    "native_use": "Supercritical solvent."
+  },
+  "hexane": {
+    "name": "Hexane",
+    "is_green": false,
+    "score": 3,
+    "reason": "Neurotoxic and volatile.",
+    "alternative": "Use greener solvents.",
+    "native_use": "Oil extraction."
+  },
+  "isopropanol": {
+    "name": "Isopropanol",
+    "is_green": true,
+    "score": 7,
+    "reason": "Moderately safe solvent.",
+    "alternative": "Alternative to toxic solvents.",
+    "native_use": "Cleaning and disinfecting."
+  },
+  "acetonitrile": {
+    "name": "Acetonitrile",
+    "is_green": false,
+    "score": 4,
+    "reason": "Toxic and hazardous.",
+    "alternative": "Use ethanol-based solvents.",
+    "native_use": "Chromatography solvent."
+  },
+  "dimethyl sulfoxide": {
+    "name": "Dimethyl Sulfoxide",
+    "is_green": true,
+    "score": 8,
+    "reason": "Low toxicity and versatile solvent.",
+    "alternative": "Safer solvent option.",
+    "native_use": "Lab solvent."
+  },
+  "formic acid": {
+    "name": "Formic Acid",
+    "is_green": true,
+    "score": 7,
+    "reason": "Naturally occurring and biodegradable.",
+    "alternative": "Green acid alternative.",
+    "native_use": "Preservation and synthesis."
+  },
+  "butanol": {
+    "name": "Butanol",
+    "is_green": true,
+    "score": 7,
+    "reason": "Can be bio-derived fuel.",
+    "alternative": "Renewable solvent.",
+    "native_use": "Fuel and solvent."
+  },
+
+  "nitric acid": {
+    "name": "Nitric Acid",
+    "is_green": false,
+    "score": 3,
+    "reason": "Highly corrosive and polluting.",
+    "alternative": "Use milder oxidizers.",
+    "native_use": "Fertilizer production."
+  },
+  "phosphoric acid": {
+    "name": "Phosphoric Acid",
+    "is_green": false,
+    "score": 5,
+    "reason": "Moderate environmental impact.",
+    "alternative": "Use natural acids.",
+    "native_use": "Food additives."
+  },
+  "hydrochloric acid": {
+    "name": "Hydrochloric Acid",
+    "is_green": false,
+    "score": 4,
+    "reason": "Corrosive chemical.",
+    "alternative": "Use weaker acids.",
+    "native_use": "Cleaning and processing."
+  },
+  "potassium permanganate": {
+    "name": "Potassium Permanganate",
+    "is_green": false,
+    "score": 4,
+    "reason": "Strong oxidizer with environmental risks.",
+    "alternative": "Hydrogen peroxide.",
+    "native_use": "Oxidizing agent."
+  },
+  "sodium chloride": {
+    "name": "Sodium Chloride",
+    "is_green": true,
+    "score": 8,
+    "reason": "Naturally abundant and safe.",
+    "alternative": "Eco-friendly compound.",
+    "native_use": "Food and industry."
+  },
+  "magnesium sulfate": {
+    "name": "Magnesium Sulfate",
+    "is_green": true,
+    "score": 8,
+    "reason": "Low toxicity and biodegradable.",
+    "alternative": "Safe drying agent.",
+    "native_use": "Medicine and labs."
+  },
+  "glucose": {
+    "name": "Glucose",
+    "is_green": true,
+    "score": 10,
+    "reason": "Natural, renewable, and biodegradable.",
+    "alternative": "Green feedstock.",
+    "native_use": "Energy source in biology."
+  },
+  "starch": {
+    "name": "Starch",
+    "is_green": true,
+    "score": 10,
+    "reason": "Renewable and biodegradable.",
+    "alternative": "Eco-friendly material.",
+    "native_use": "Bioplastics."
+  },
+  "cellulose": {
+    "name": "Cellulose",
+    "is_green": true,
+    "score": 10,
+    "reason": "Abundant natural polymer.",
+    "alternative": "Green material alternative.",
+    "native_use": "Paper and textiles."
+  },
+  "lignin": {
+    "name": "Lignin",
+    "is_green": true,
+    "score": 9,
+    "reason": "Renewable biomass component.",
+    "alternative": "Bio-based material.",
+    "native_use": "Biofuel production."
+  }
+}
